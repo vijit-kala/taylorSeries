@@ -14,7 +14,14 @@ double e(int x,int n){
     }
 }
 
+int revFact(int n){
+    if(n == 20+1) return 1;
+    return n*revFact(n+1);
+}
+
+
 int main(){
     printf("%lf",e(3,10));
+    revFact(5);
     return 0;
 }
