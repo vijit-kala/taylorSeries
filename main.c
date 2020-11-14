@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdio.h>
-
+#include <stdlib.h>
+#include <stdbool.h>
 
 double e(int x,int n){
     static double p=1,f=1;
